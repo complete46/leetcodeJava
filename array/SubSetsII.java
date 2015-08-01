@@ -24,7 +24,7 @@ public class SubSetsII {
     }
     
     public static void main(String[] args) {
-    	int[] nums = {1, 2, 2};
+    	int[] nums = {1, 2, 2, 2};
     	List<List<Integer>> res = subsets(nums);
     	for (List<Integer> item : res) {
     		for (int i : item) {
