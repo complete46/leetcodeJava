@@ -2,5 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="array"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/tianrui/algs4/algs4.jar"/>
+	<classpathentry kind="lib" path="/Users/tianrui/algs4/stdlib.jar"/>
 	<classpathentry kind="output" path="array"/>
 </classpath>
