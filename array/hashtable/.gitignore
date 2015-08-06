@@ -2,3 +2,6 @@
 /SingleNumber.class
 /CopyRandomList.class
 /CopyRandomList$RandomListNode.class
+/ValidSudoku.class
+/ValidSudoku$Solution.class
+/SolveSudoku.class
