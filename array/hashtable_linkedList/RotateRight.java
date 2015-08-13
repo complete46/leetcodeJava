@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 public class RotateRight {
 	public ListNode rotateRight(ListNode head, int k) {

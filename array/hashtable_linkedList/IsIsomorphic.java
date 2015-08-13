@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 public class IsIsomorphic {
 	public static boolean isIsomorphic(String s, String t) {

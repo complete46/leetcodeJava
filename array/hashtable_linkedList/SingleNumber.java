@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 public class SingleNumber {
 	public int singleNumber(int[] nums) {

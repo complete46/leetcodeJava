@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 import java.util.HashMap;
 
 public class FractionToDecimal {

@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 public class SortedListToBST {
 	public TreeNode sortedListToBST(ListNode head) {

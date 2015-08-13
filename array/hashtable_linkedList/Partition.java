@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 public class Partition {
     public ListNode partition(ListNode head, int x) {

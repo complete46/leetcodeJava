@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 public class DetectCycle {
 	public ListNode detectCycle(ListNode head) {

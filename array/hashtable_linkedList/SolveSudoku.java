@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 public class SolveSudoku {
 	public void solveSudoku(char[][] board) {

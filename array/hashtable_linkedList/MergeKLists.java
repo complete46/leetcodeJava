@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

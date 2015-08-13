@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 class ListNode {
 	int val;

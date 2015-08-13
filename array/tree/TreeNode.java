@@ -1,4 +1,4 @@
-package hashtable;
+package tree;
 
 public class TreeNode {
 	int val;

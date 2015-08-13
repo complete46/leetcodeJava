@@ -1,4 +1,4 @@
-package hashtable;
+package hashtable_linkedList;
 
 public class ReverseKGroup {
 	public ListNode reverseKGroup(ListNode head, int k) {
