@@ -21,7 +21,7 @@ public class LevelOrder {
             item = new ArrayList<Integer>();
             res.add(item);
         } else {
-            item = res.get(level);
+            item = (ArrayList<Integer>)res.get(level);
         }
         
         item.add(root.val);
