@@ -52,4 +52,32 @@ public class SortList {
 
 		return dummy.next;
 	}
+	
+	public static int singleNumber(int[] nums) {
+        int res = 0;
+        for (int i = 0; i < nums.length; i++) {
+            res ^= nums[i];
+        }
+        
+        return res;
+    }
+	
+	public int findThreeTime(int[] nums) {
+        int res = 0;
+        for (int i = 0; i < nums.length; i++) {
+            res ^= nums[i];
+        }
+        return res;
+    }
+	
+    synchronized public static boolean buy(int amout) {
+        return false;
+    }
+	
+	public static void main(String[] args) {
+		int res = 1 * 432 + 6 * 8 + 4 * 72 + 6 * 32 + 6 * 12 + 2 * 288 + 4 * 108 + 6 * 48;
+		int[] nums = {88, 459, 5262, 88, -17, 677, 88, 667, -17, 459, 5262};
+		System.out.println(singleNumber(nums));
+		System.out.println(88  ^ 88  ^ 677 ^ 88 ^ 667   ^ 5262);
+	}
 }
