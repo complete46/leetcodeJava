@@ -61,3 +61,6 @@
 /PostorderAndInorder$TreeNode.class
 /Trie.class
 /Trie$TrieNode.class
+/WordDirectory.class
+/WordDictionary$TrieNode.class
+/WordDictionary.class
