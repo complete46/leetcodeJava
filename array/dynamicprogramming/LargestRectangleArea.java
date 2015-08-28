@@ -1,5 +1,7 @@
 package dynamicprogramming;
 
+import java.util.Stack;
+
 public class LargestRectangleArea {
 	public int largestRectangleArea(int[] height) {
         Stack<Integer> s = new Stack<Integer>();
