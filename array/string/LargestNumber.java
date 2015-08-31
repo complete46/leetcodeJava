@@ -13,8 +13,8 @@ public class LargestNumber {
         
         Comparator<String> comp = new Comparator<String>(){
         	public int compare(String a, String b) {
-        		long x = Long.parseLong(a + b);
-        		long y = Long.parseLong(b + a);
+        		double x = Double.parseDouble(a + b);
+        		double y = Double.parseDouble(b + a);
         		if (x == y) return 0;
         		return x > y ? -1 : 1;
         	}
@@ -31,7 +31,7 @@ public class LargestNumber {
     }
 	
 	public static void main(String[] args) {
-		int[] nums = {999999998,999999997,999999999};
+		int[] nums = {2147483647,2147483647,2147483646,9,1,8};
 		int[] nums1 = {0, 0};
 		System.out.println(largestNumber(nums));
 	}
