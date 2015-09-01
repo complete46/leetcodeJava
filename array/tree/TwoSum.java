@@ -1,4 +1,6 @@
 package tree;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TwoSum {
 	HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
