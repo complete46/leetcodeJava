@@ -1,4 +1,6 @@
 package string;
+import java.util.List;
+import java.util.ArrayList;
 
 public class FullJustify {
 	 public List<String> fullJustify(String[] words, int maxWidth) {
